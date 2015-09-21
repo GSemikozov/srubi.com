@@ -1,0 +1,296 @@
+.content-block_shadow {
+    box-shadow: 0 5px 10px rgba(0,0,0, .3);
+    position: relative;
+    z-index: 2;
+}
+.detailed_wrapper {
+    overflow: hidden;
+}
+.detailed_wrapper .subheader-block {
+    background: url("../img/header/text-header-bg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 435px;
+    padding: 290px 0 0;
+}
+.detailed_wrapper .content-block {
+    background: url("../img/detailed_content-bg.png") no-repeat;
+
+}
+.subheading-menu {
+    margin: 26px 0 70px;
+}
+.subheading-menu a {
+    display: block;
+    text-decoration: none;
+}
+.subheading-menu a:hover .subheading-menu_text {
+    text-decoration: none;
+}
+.subheading-menu img {
+    margin-right: 20px;
+    float: left;
+}
+.subheading-menu_text {
+    padding-top: 5px;
+    font-size: 13px;
+    font-family: 'RobotoRegular';
+    text-decoration: underline;
+    overflow: hidden;
+    color: #785437;
+}
+.detailed_wrapper .nav-tabs {
+    text-align: left;
+}
+.detailed_wrapper .nav-tabs li a {
+    border-bottom: transparent;
+    text-transform: none;
+    color: #333;
+    font-family: 'RobotoLight';
+    font-size: 16px;
+    text-align: left;
+}
+.detailed_wrapper .nav-tabs li a span {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
+}
+.detailed_wrapper .nav-tabs li.active a {
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent;
+}
+.detailed_wrapper .nav-tabs li.active a span {
+    border-bottom: transparent;
+}
+.detailed_wrapper .nav-tabs li.active a:hover, .detailed_wrapper .nav-tabs li.active a:focus {
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    color: #333;
+}
+.detailed_wrapper .nav-tabs li.active a:hover span, .detailed_wrapper .nav-tabs li.active a:focus span {
+    border-bottom: transparent;
+}
+.tab-content {
+    padding: 20px;
+}
+.tab-content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'RobotoLight';
+}
+.brief_wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -230px;
+    width: 100%;
+}
+.brief {
+    width: 320px;
+    background: #fbf5f0;
+    position: relative;
+    background: url("../img/content/form-triangle-bg.png");
+    background-size: 100% 100%;
+    padding: 30px;
+}
+/*.brief:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -30px;
+    left: -10px;
+    height: 40px;
+    width: 320px;
+    background: url("../img/content/form-triangle.png") no-repeat;
+}*/
+.brief .heading {
+    border-bottom: 1px solid #e1dcd8;
+    padding-bottom: 22px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.brief .heading img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.brief .heading .heading_text {
+    overflow: hidden;
+}
+.heading_text .strikethrough-text {
+    text-decoration: line-through;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #899ea4;
+}
+.heading_text .main-text {
+    font-family: 'RobotoBold';
+    font-weight: bold;
+    font-size: 30px;
+    color: #cf7327;
+}
+.brief .content {
+    margin-bottom: 20px;
+}
+.brief .content span {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.brief .button-menu {
+    padding: 15px 0;
+}
+.brief .button-menu .btn-form_green, .brief .button-menu .btn-form_orange {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    margin-top: 8px;
+}
+.brief .button-menu .btn-form_green {
+    background: #87b91c;
+    border: 2px solid #87b91c;
+}
+.brief .button-menu .btn-form_green:hover {
+    color: #87b91c;
+    background: #fff;
+}
+.brief .button-menu .btn-form_orange {
+    background: #cf7327;
+    border: 2px solid #cf7327;
+}
+.brief .button-menu .btn-form_orange:hover {
+    color: #cf7327;
+    background: #fff;
+}
+.brief .button-menu .btn-form_orange .counter {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-left: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.brief .button-menu .btn-form_orange:hover .counter {
+    color: #cf7327;
+    border: 1px solid #cf7327;
+}
+.brief .footer-block {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.brief .footer-block span {
+    font-family: 'Arial';
+    font-size: 12px;
+    margin-left: 10px;
+}
+.content-heading-block {
+
+}
+.content-heading-block h2 {
+    font-size: 26px;
+    font-family: 'RobotoLight';
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+.content-heading-block h2 img {
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+.content-heading-block hr {
+    margin-top: 37px;
+    margin-bottom: 27px;
+    border-top: 1px solid #d0d0d0;
+    height: 1px;
+}
+.reviews-block {
+    position: relative;
+    width: 100%;
+    background: #e8e8e8;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: 'RobotoLight';
+    font-size: 13px;
+}
+.reviews-block:after {
+    position: absolute;
+    bottom: -17px;
+    left: 40px;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url("../img/content/triangle.png") no-repeat;
+}
+.reviews-person {
+    margin-bottom: 50px;
+}
+.reviews-person .name {
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+    float: left;
+}
+.reviews-person .city {
+    font-family: 'RobotoLight';
+    font-size: 14px;
+    float: right;
+}
+
+.pre-footer-block {
+    background: url("../img/content/pre-footer-bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.must-see-block {
+    margin-bottom: 30px;
+}
+.project_item {
+    padding: 6px;
+}
+.project_item .caption {
+    margin-left: 210px;
+}
+@media only screen and (max-width : 767px) {
+    .subheading-menu_item {
+        margin-bottom: 20px;
+    }
+    .brief_wrapper {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .brief {
+        margin: 0 auto;
+    }
+    .content-heading-block hr {
+        margin-right: 15px;
+    }
+    .project_item .caption {
+        margin-left: 0;
+    }
+    .project_item .caption p {
+        margin-bottom: 30px;
+    }
+    .project_item img {
+        margin-bottom: 20px;
+    }
+}

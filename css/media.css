@@ -1,0 +1,167 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+    
+    .navbar-default .navbar-nav > li{
+        padding:0!important;
+    }
+    
+    .top_menu{
+        display: none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .item_advantages{
+        margin-bottom: 15px;
+    }
+    
+    .item_advantages:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    .excellence_item{
+        margin-bottom: 15px;
+    }
+    .menu_bottom{
+        margin-left: !important;
+    }
+    
+
+    
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .item_advantages{
+        display: block!important;
+       
+    }
+    .item_advantages img{
+        margin: 0 auto;
+    }
+    
+    .vcenter{
+        text-align: center!important;
+        display: block;
+    }
+    
+    .advantages_inner p{
+        padding-left: 0!important;
+    }
+    
+    .menu_bottom_container{
+
+    }
+    
+    .menu_bottom{
+         margin-left: 130px!important;    
+    }
+
+}
+
+
+@media only screen and (max-width : 690px){
+    .menu_bottom{
+         margin-left: 80px!important;    
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .carousel-caption{
+        top:12%!important;
+    }
+    
+    .carousel-caption ul li{
+        display: block;
+        margin-left: 0;
+        
+    }
+    
+    .carousel-caption h2{
+        font-size: 28px!important;
+    }
+
+    
+    .project_item img{
+        width: 100%;
+    }
+    
+    .projects .caption{
+        margin-left: 0!important;
+    }
+    
+    .vcenter{
+        display: block!important;
+        text-align: center!important;
+    }
+    
+    .menu_bottom{
+        margin-left: 80px!important;
+    }
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .menu_bottom{
+         margin-left: 130px!important;    
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+    .navbar-collapse.collapse{
+        display:block!important;
+        height: auto!important;
+        overflow: visible!important;
+    } 
+    
+        .advantages_inner .advantages_bottom{
+             margin-top: 30px;
+    }  
+    
+        .excellence .row_excellence{
+            margin-top: 30px;
+    }
+    
+    .menu_bottom{
+         margin-left:80px!important;    
+    }
+
+}
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+        .btn_mob_menu{
+            display: none!important;
+        }
+}
